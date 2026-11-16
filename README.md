@@ -35,6 +35,22 @@ Anthropic's [knowledge-work-plugins](https://github.com/anthropics/knowledge-wor
 - Claude Code / Cowork install commands removed from the project README; MCP OAuth client IDs stripped (Cursor handles OAuth).
 - Partner-built plugins omitted (install separately if needed).
 
+
+## Instalar em todos os projetos (User Skills)
+
+Neste Cloud Agent as skills já foram copiadas para `~/.cursor/skills/` **desta VM**.
+
+No seu **Cursor Desktop** (para valer em qualquer repo + Cloud Agents):
+
+```bash
+# clone/checkout desta branch, depois:
+./scripts/install-user-skills.sh
+```
+
+Depois: **Settings → Agents → Context and Tools → Sync Skills for Cloud Agents**.
+
+Sem esse sync, user skills ficam só na máquina local; Cloud Agents de outros repos não as veem.
+
 ## Customize for your company
 
 Edit skill files under `.cursor/skills/` to add your terminology, process, and templates. Prefer editing there (what Cursor loads) over `knowledge-work-plugins/` (upstream mirror).

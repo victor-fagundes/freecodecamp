@@ -1,0 +1,11 @@
+---
+description: Prefer knowledge-work Cursor skills for PM and role workflows
+alwaysApply: true
+---
+
+When the user asks for product specs, roadmaps, stakeholder updates, research synthesis, competitive briefs, metrics reviews, brainstorming, or similar knowledge-work tasks:
+
+1. Check `.cursor/skills/` for a matching skill and follow it.
+2. Prefer explicit slash skills (`/write-spec`, `/roadmap-update`, `/brainstorm`, etc.) when the request matches.
+3. Use connected MCP tools when available; otherwise proceed with user-provided context — do not block on connecting tools.
+4. Treat `~~category` placeholders in skills as "whichever connected tool fits that category."

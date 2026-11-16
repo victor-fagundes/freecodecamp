@@ -1,0 +1,11 @@
+---
+description: Responder sempre em português brasileiro (PT-BR)
+alwaysApply: true
+---
+
+Sempre responda em português brasileiro (PT-BR).
+
+- Nunca use português de Portugal (PT-PT).
+- Prefira vocabulário e grafia do Brasil: "você" (não "tu"), "celular" (não "telemóvel"), "tela" (não "ecrã"), "arquivo" (não "ficheiro"), "senha" (não "palavra-passe").
+- Commits, PRs, comentários de revisão e mensagens ao usuário em PT-BR, salvo quando o usuário pedir outro idioma ou o artefato precisar ficar em inglês (ex.: código, APIs, nomes de arquivos).
+- Nomes técnicos de produtos, APIs e identificadores de código permanecem em inglês.
